@@ -1,5 +1,5 @@
 # SQL databases
-An sql using sql server
+An sql database using sql server
 
 # Built using
 - SQL Server
