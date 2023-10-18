@@ -10,3 +10,8 @@ Le but du projet est de déployer une application de gestion d'inventaire. Par l
 - (+) Implémentation de Kubernetes pour orchestrer les containers docker
 - (+) Utilisation de graphana pour faire du monitoring
 - (+) Mise en place d'un systeme de gestion de files d'attente
+
+
+# Architecture
+
+![Schema](https://github.com/BlazingBurn/Microservice_implement_stockManagement/assets/49305403/acc1462e-b6ef-46ef-a7fd-25d87e948d78)
