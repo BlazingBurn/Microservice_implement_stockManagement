@@ -7,7 +7,7 @@ An sql database using sql server
 
 # Connect to container
 - docker exec -it 'name' bash
-- /opt/mssql-tools/bin/sqlcmd -S 127.0.0.1 -Usa -P "abcDEF123#"
+- /opt/mssql-tools/bin/sqlcmd -S localhost -Usa -P "abcDEF123#"
 
 # License
 
