@@ -8,10 +8,10 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = '323b22caac41acbf'
 
 # Configuration de la base de données Azure SQL
-server = "tcp:stockmanagementserve.database.windows.net,1433"
-database = "StockManagement"
-username = "azureuser"
-password = "Qsdfghjklm12"
+server = "127.0.0.1,1433"
+database = "InventoryManagement"
+username = "SA"
+password = "abcDEF123#"
 
 driver = '{ODBC Driver 18 for SQL Server}'
 
