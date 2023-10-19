@@ -19,3 +19,13 @@ Le but du projet est de déployer une application de gestion d'inventaire. Par l
 
 # Route
     => Regarder dans le README.md flask_app
+
+# PROBLEME RENCONTRE
+
+Problemes qui ont ralenti => 
+- PC perso qui on ralenti le developpement (Bug, freeze)
+- Compatibilité dans le dockerfile entre le back et front (1j d'investigation pour résoudre le probleme)
+
+# A FAIRE (Dans la semaine si le temps le permet)
+- Déployé sur azure
+- Ajouter kubernetes
