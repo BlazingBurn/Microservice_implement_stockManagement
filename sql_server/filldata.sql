@@ -46,3 +46,6 @@ CREATE TABLE Location (
     CONSTRAINT UC_loc UNIQUE (loc_name)
 );
 GO
+
+INSERT INTO Location VALUES (1, 'Paris');
+GO
