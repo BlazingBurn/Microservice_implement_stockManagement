@@ -29,3 +29,16 @@ Problemes qui ont ralenti =>
 # A FAIRE (Dans la semaine si le temps le permet)
 - Déployé sur azure
 - Ajouter kubernetes
+
+# SCREEN APP
+## / <=> /Overview
+![image](https://github.com/BlazingBurn/Microservice_implement_stockManagement/assets/49305403/78514a6e-3deb-4689-a652-9854fc4d8a0c)
+
+## /Product
+![image](https://github.com/BlazingBurn/Microservice_implement_stockManagement/assets/49305403/b08d813f-9639-4d10-8aeb-83797dbb26e7)
+
+## Location
+![image](https://github.com/BlazingBurn/Microservice_implement_stockManagement/assets/49305403/7a9f8c8d-f356-419b-b49e-000d1bbae757)
+
+## Transfers
+![image](https://github.com/BlazingBurn/Microservice_implement_stockManagement/assets/49305403/caf3d7f0-1b1c-4e7a-84d6-558df9c6b51b)
