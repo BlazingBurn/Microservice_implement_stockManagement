@@ -16,3 +16,6 @@ Le but du projet est de déployer une application de gestion d'inventaire. Par l
 # Architecture
 
 ![Schema](https://github.com/BlazingBurn/Microservice_implement_stockManagement/assets/49305403/acc1462e-b6ef-46ef-a7fd-25d87e948d78)
+
+# Route
+    => Regarder dans le README.md flask_app
