@@ -91,6 +91,7 @@ def loc():
             return redirect('/Location')
     elif form.validate_on_submit() :
         loc = Location(loc_name=form.locname.data)
+        app.logger.info(loc)
         db.session.add(loc)
         try:
             db.session.commit()

@@ -16,7 +16,7 @@ GO
 
 -- Creation des tables
 CREATE TABLE Balance (
-    bid INT PRIMARY KEY NOT NULL, 
+    bid INT IDENTITY PRIMARY KEY NOT NULL, 
     product NVARCHAR(20) NOT NULL, 
     [location] NVARCHAR(20) NOT NULL, 
     quantity INT NOT NULL
@@ -24,7 +24,7 @@ CREATE TABLE Balance (
 GO
 
 CREATE TABLE Movement (
-    mid INT PRIMARY KEY, 
+    mid INT IDENTITY PRIMARY KEY, 
     ts DATETIME, 
     frm NVARCHAR(20) NOT NULL, 
     [to] NVARCHAR(20) NOT NULL, 
@@ -34,14 +34,14 @@ CREATE TABLE Movement (
 GO
 
 CREATE TABLE Product (
-    prod_id INT PRIMARY KEY, 
+    prod_id INT IDENTITY PRIMARY KEY, 
     prod_name NVARCHAR(20) NOT NULL, 
     prod_qty INT NOT NULL
 );
 GO
 
 CREATE TABLE Location (
-    loc_id INT PRIMARY KEY, 
+    loc_id INT IDENTITY PRIMARY KEY, 
     loc_name NVARCHAR(20) NOT NULL, 
     CONSTRAINT UC_loc UNIQUE (loc_name)
 );
