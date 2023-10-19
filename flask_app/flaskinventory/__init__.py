@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = '323b22caac41acbf'
 
 # Configuration de la base de données Azure SQL
-server = "127.0.0.1,1433"
+server = "172.18.0.2,1433"
 database = "InventoryManagement"
 username = "SA"
 password = "abcDEF123#"
@@ -16,7 +16,7 @@ password = "abcDEF123#"
 driver = '{ODBC Driver 18 for SQL Server}'
 
 # Chaîne de connexion ODBC
-odbc_str = 'Driver='+driver+';Server='+server+';Database='+ database + ';Uid=' + username  + ';Pwd='+ password + ';Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
+odbc_str = 'Driver='+driver+';Server='+server+';Database='+ database + ';Uid=' + username  + ';Pwd='+ password + ';Encrypt=yes;TrustServerCertificate=yes;Connection Timeout=30;'
 connect_str = 'mssql+pyodbc:///?odbc_connect=' + urllib.parse.quote_plus(odbc_str)
 
 # Configuration de SQLAlchemy
