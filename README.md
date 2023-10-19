@@ -25,6 +25,11 @@ Le but du projet est de déployer une application de gestion d'inventaire. Par l
 Problemes qui ont ralenti => 
 - PC perso qui on ralenti le developpement (Bug, freeze)
 - Compatibilité dans le dockerfile entre le back et front (1j d'investigation pour résoudre le probleme)
+- Azure => compte hitema impossible de ce connecter avec le mercredi aprem et jeudi
+
+# Docker deployé sur azure
+
+![image](https://github.com/BlazingBurn/Microservice_implement_stockManagement/assets/49305403/3e01fec8-97e0-4cc4-82ac-a5c023fecf13)
 
 # A FAIRE (Dans la semaine si le temps le permet)
 - Ajouter kubernetes
