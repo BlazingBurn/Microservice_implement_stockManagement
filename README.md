@@ -27,8 +27,8 @@ Problemes qui ont ralenti =>
 - Compatibilité dans le dockerfile entre le back et front (1j d'investigation pour résoudre le probleme)
 
 # A FAIRE (Dans la semaine si le temps le permet)
-- Déployé sur azure
 - Ajouter kubernetes
+- PowerBI
 
 # SCREEN APP
 ## / <=> /Overview
