@@ -29,6 +29,14 @@ Problemes qui ont ralenti =>
 
 # Docker deployé sur azure
 
+commande utilisé :
+
+    docker build -t stockmanagement .
+    docker images
+    docker tag stockmanagement testdockerhelloworldh3.azurecr.io/stockmanagement:latest
+    docker login testdockerhelloworldh3.azurecr.io
+    docker push testdockerhelloworldh3.azurecr.io/stockmanagement
+
 ![image](https://github.com/BlazingBurn/Microservice_implement_stockManagement/assets/49305403/3e01fec8-97e0-4cc4-82ac-a5c023fecf13)
 
 # A FAIRE (Dans la semaine si le temps le permet)
