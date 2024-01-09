@@ -8,7 +8,8 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = '323b22caac41acbf'
 
 # Configuration de la base de données Azure SQL
-server = "172.18.0.2,1433"
+# server = "172.23.0.2,1433"
+server = "microservice_implement_stockmanagement-sql-server-backend-1,1433"
 database = "InventoryManagement"
 username = "SA"
 password = "abcDEF123#"

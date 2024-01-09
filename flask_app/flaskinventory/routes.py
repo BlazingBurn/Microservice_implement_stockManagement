@@ -19,6 +19,7 @@ def overview():
     return render_template('overview.html' ,balance=balance)
 
 
+# Route de produit ajout, supression et get
 @app.route("/Product", methods = ['GET','POST'])
 def product():
     form = addproduct()
@@ -206,6 +207,7 @@ def check(frm,to,name,qty):
                     db.session.commit()
         else  :
                  return False
+
 @app.route("/delete")
 def delete():
     type = request.args.get('type')

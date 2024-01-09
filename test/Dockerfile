@@ -18,9 +18,6 @@ WORKDIR /app
 # Copier le fichier requirements.txt dans le conteneur
 COPY requirements.txt requirements.txt
 
-# Installez les bibliothèques ODBC (unixodbc et unixodbc-dev)
-# RUN apt-get install -y unixodbc unixodbc-dev
-
 # Installer lsb-release
 RUN apt-get update && apt-get install -y lsb-release
 
@@ -35,14 +32,6 @@ RUN chmod +x /app/odbc18install.sh && /app/odbc18install.sh
 # Installe les dépendances Python à partir du fichier requirements.txt
 RUN pip3 install -r requirements.txt
 
-# Copie le contenu de l'application dans le conteneur
-COPY . /app
+COPY ./test.py /app
 
-# Défini la variable d'environnement FLASK_APP
-ENV FLASK_APP run.py
-
-# Expose le port 5000 pour Flask
-EXPOSE 5000
-
-# Démarre l'application Flask lorsque le conteneur est lancé
-CMD [ "python3", "-m", "flask", "run", "--host=0.0.0.0" ]
+CMD [ "python3", "-u", "./test.py" ]

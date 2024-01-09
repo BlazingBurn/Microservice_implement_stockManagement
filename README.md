@@ -29,3 +29,10 @@ Problemes qui ont ralenti =>
 # A FAIRE (Dans la semaine si le temps le permet)
 - Déployé sur azure
 - Ajouter kubernetes
+
+# EXPLICATION BUILD/RUN PROJET
+
+Le projet est build sur Azure et donc automatiquement.
+
+Les liens pour acceder à l'application :
+** Lien non disponible puisque l'application n'est plus accesible **
